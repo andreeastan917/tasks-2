@@ -1,0 +1,120 @@
+body{
+    background-image: url(coffee1.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment:fixed;
+    margin:0px;
+}
+
+.menu{
+    background-color: rgba(0, 0, 0, 0.308);
+    height: 55px;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    color:blanchedalmond;
+
+}
+
+
+ul{
+    position: absolute;
+    left: 65%;
+}
+
+li{
+    display: inline;
+    font-size: 23px;
+    margin-right: 10px;
+    list-style: none;
+    padding: 6px;
+}
+
+li:hover{
+    border: 2px solid rgba(20, 0, 4, 0.719);
+    padding: 8px;
+}
+
+.parent{
+    margin-top:200px;
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    align-items: center;
+}
+
+.child{
+    width: 300px;
+    height: 400px;
+    background-color: #4d352ce3;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+
+button{
+    display: block;
+    margin-top: 5px;
+    margin-left: 85px;
+    padding: 5px 25px 5px 25px;
+    border-radius: 5px;
+    border-style:dotted;
+    border-color: cornsilk;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(71, 14, 4, 0.438);
+    color: blanchedalmond;
+
+}
+.child:hover{
+    transform:scale(1.1, 1.1);
+    margin: 20px;
+}
+
+
+.formular{
+    margin-top:200px;
+    padding-left: 430px;
+    padding-top: 60px;
+    padding-bottom: 140px;
+    background-color: rgba(66, 22, 14, 0.671);
+   
+}
+
+input{
+    color: white;
+    display: block;
+    margin: 40px;
+    font-size: 20px;
+    border: 2px blanchedalmond;
+    border-radius: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    width: 343px;
+    background-color: rgba(0, 0, 0, 0.678);
+}
+
+textarea{
+    background-color: rgba(0, 0, 0, 0.678);
+    font-size: 20px;
+    color: white;
+    width: 350px;
+    height: 200px;
+    margin-left: 40px;
+
+}
+
+img{
+    width: 280px;
+    height: 340px;
+    padding-left: 10px;
+    border-radius: 20px;
+    padding-top:8px;
+}
+
+
+@media only screen and (max-width:376px){
+}
